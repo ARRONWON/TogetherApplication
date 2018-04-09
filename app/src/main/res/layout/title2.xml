@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/Red2"
+    android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/r_corners_search"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sousuo"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="clip_vertical"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fabuhuodong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/add4"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

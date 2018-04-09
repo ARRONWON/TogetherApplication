@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9月15日 — 06:35PM"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:riv_oval="true"
+            android:layout_gravity="center"
+            android:src="@drawable/head2"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:background="@drawable/frame3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="有多少人去？场地环境如何?"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@drawable/frame4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_gravity="center_vertical"
+            android:text="目前有8个人，场地在室外"/>
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:riv_oval="true"
+            android:layout_gravity="center"
+            android:src="@drawable/head"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:riv_oval="true"
+            android:layout_gravity="center"
+            android:src="@drawable/head4"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:background="@drawable/frame3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="好的，需要我来带球吗？"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/MyMessage1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+
+        android:visibility="invisible">
+        <TextView
+            android:id="@+id/TextView1"
+            android:background="@drawable/frame4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:riv_oval="true"
+            android:layout_gravity="center"
+            android:src="@drawable/head"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_gravity="bottom">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/laba"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/SendMessage1"
+            android:layout_width="245dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@null"/>
+        <ImageView
+            android:id="@+id/send1"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/send"
+            android:layout_gravity="center_vertical" />
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/add3"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    </LinearLayout>

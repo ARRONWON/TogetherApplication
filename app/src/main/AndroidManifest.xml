@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.j.togetherapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/together3"
+        android:label="一  起"
+        android:supportsRtl="true"
+        android:theme="@style/NoTitle">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EstablishActivity" />
+        <activity android:name=".Join2_Activity" />
+        <activity android:name=".Join1_Activity" />
+        <activity android:name=".Publish1_Activity" />
+        <activity android:name=".Publish2_Activity" />
+        <activity android:name=".chat1" />
+        <activity android:name=".chat2" />
+        <activity android:name=".chat3" />
+        <activity android:name=".BobActivity" />
+        <activity android:name=".SignUPActivity2" />
+        <activity android:name=".Publish_Comment" />
+        <activity android:name=".chat4"></activity>
+    </application>
+
+</manifest>
